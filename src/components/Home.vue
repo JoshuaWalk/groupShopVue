@@ -4,12 +4,14 @@
         <button>log in</button>
         <button>shop</button>
         <button>cart</button>
-      
+    <div component = 'dashboard'>
+        </div>  
     </div>
 </template>
 
 
 <script>
+import dashboard from '@/components/Dashboard'
 export default {
     name: 'home',
     data () {
