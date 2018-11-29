@@ -4,7 +4,7 @@
     </dive>
 </template>
 
-
+//this is my comment
 <script>
 export default {
     name: 'cart',
