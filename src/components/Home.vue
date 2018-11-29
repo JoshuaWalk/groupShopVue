@@ -1,9 +1,13 @@
 <template>
     <div id="home">
         <h3> home page</h3>
-        <button>log in</button>
-        <button>shop</button>
-        <button>cart</button>
+        <v-btn
+        flat
+        href="/login"
+        target="login here"
+      >
+        <span class="mr-2">Enter the Store</span>
+      </v-btn>
     <div component = 'dashboard'>
         </div>  
     </div>
@@ -11,7 +15,6 @@
 
 
 <script>
-import dashboard from '@/components/Dashboard'
 export default {
     name: 'home',
     data () {
