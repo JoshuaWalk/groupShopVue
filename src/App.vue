@@ -9,21 +9,19 @@
       <v-btn
         flat
         href="/login"
-        target="login here"
+        
       >
         <span class="mr-2">Login</span>
       </v-btn>
       <v-btn
         flat
         href="/signup"
-        target="signup"
       >
         <span class="mr-2">Sign Up</span>
       </v-btn>
       <v-btn
         flat
         href="/cart"
-        target="login here"
       >
         <span class="mr-2">Cart</span>
       </v-btn>

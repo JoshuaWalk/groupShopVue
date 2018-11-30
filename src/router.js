@@ -5,6 +5,7 @@ import Home from '@/components/Home'
 import Shop from '@/components/Shop'
 import Authentication from '@/components/Authentication'
 import SignUp from '@/components/SignUp'
+import Admin from '@/components/Admin'
 
 Vue.use(Router)
 
@@ -36,6 +37,11 @@ export default new Router({
     path: '/signup',
     name: 'SignUp',
     component: SignUp
+  },
+  {
+    path: '/admin',
+    name: 'Admin',
+    component: Admin
   }
   
     
