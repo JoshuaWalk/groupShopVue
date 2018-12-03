@@ -1,7 +1,7 @@
 <template>
-    <dive id="signup">
+    <div id="signup">
         <h3> sign up page </h3>
-    </dive>
+    </div>
 </template>
 
 

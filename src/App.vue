@@ -17,7 +17,7 @@
         href="/login"
       >
         <span class="mr-2">Login</span>
-      </v-btn>
+        </v-btn>
       <v-btn
         flat
         href="/signup"
@@ -39,16 +39,16 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    
   },
   data () {
     return {
-      //
+      
     }
   }
 }
