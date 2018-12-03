@@ -8,8 +8,13 @@
       <v-spacer></v-spacer>
       <v-btn
         flat
+        href="/shop"
+      >
+        <span class="mr-2">Shop</span>
+      </v-btn>
+      <v-btn
+        flat
         href="/login"
-        
       >
         <span class="mr-2">Login</span>
       </v-btn>
