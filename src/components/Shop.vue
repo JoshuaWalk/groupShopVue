@@ -5,6 +5,7 @@
 
         <li v-for="mens in tshirts" v-bind:key="tshirts.id">
         id: {{mens.id}}
+        <button @click='addToCart(product)' class='button is-info'>Add to cart</button>
         </li>
 
         <button onclick
@@ -23,6 +24,10 @@ export default {
   data: () => ({ tshirts: [] }),
   firestore: {
     tshirts: db.collection("tshirts")
-  }
-};
+  },
+  methods: {
+            addToCart () {
+                alert ('added')
+            }
+}};
 </script>
